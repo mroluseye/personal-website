@@ -86,13 +86,30 @@ const HeroSection = ({
       {/* Hero Content */}
       <div className="text-center max-w-3xl mx-auto">
         <div className="flex justify-center mb-8">
-          <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
+          <motion.div
+            initial={{ scale: 0.9 }}
+            animate={{
+              scale: 1,
+              y: [0, -10, 0],
+            }}
+            transition={{
+              y: {
+                repeat: Infinity,
+                duration: 3,
+                ease: "easeInOut",
+              },
+              scale: {
+                duration: 0.8,
+              },
+            }}
+            className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg"
+          >
             <img
               src="https://media.licdn.com/dms/image/v2/D4E03AQEa3kLXxobxkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673570225604?e=1751500800&v=beta&t=s16nmnlUDu02g2O5zpxqfJOvXetUcBM1dyNBNzA8vAQ"
               alt="Profile"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
         </div>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -127,11 +144,11 @@ const HeroSection = ({
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <Button
-            onClick={() => scrollToSection("work")}
+            onClick={() => scrollToSection("about")}
             variant="outline"
             className="rounded-full px-8 py-6 border-gray-300 hover:border-gray-900 transition-colors"
           >
-            Places I've Worked
+            More About Me
           </Button>
         </motion.div>
       </div>

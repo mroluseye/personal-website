@@ -42,7 +42,8 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({
             Places I've Worked
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Some of the amazing companies I've worked.
+            Some of the amazing organisations I've worked. Contact me if you
+            need intros to any of them.
           </p>
         </motion.div>
 
@@ -66,16 +67,6 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({
 const defaultProjects: Project[] = [
   {
     id: "1",
-    title: "AlphaGeek Digital",
-    description:
-      "A modern digital agency website with sleek design and interactive elements showcasing services and portfolio.",
-    imageUrl:
-      "https://alphageek.digital/_next/image?url=https%3A%2F%2Fwp.alphageek.digital%2Fwp-content%2Fuploads%2F2024%2F10%2Fcontact-hero-bg.webp&w=3840&q=75",
-    tags: ["Projects", "Process", "People"],
-    link: "https://alphageek.digital/",
-  },
-  {
-    id: "2",
     title: "Ministry of Justice, UK",
     description:
       "The Ministry of Justice is a major government department, at the heart of the justice system.",
@@ -85,7 +76,7 @@ const defaultProjects: Project[] = [
     link: "https://www.gov.uk/government/organisations/ministry-of-justice",
   },
   {
-    id: "3",
+    id: "2",
     title: "The King's Trust",
     description:
       "Non-profit organization website with donation integration, event management, and impact reporting features.",
@@ -93,6 +84,16 @@ const defaultProjects: Project[] = [
       "https://images.ctfassets.net/qq0roodynp09/5CiE9Z5va1sSGJCrssXUqL/8f0211e1a64e7e99650c1fc1cb9b9612/DSN6027_HomePage_Banner_1440x736.jpg",
     tags: ["Management", "Dynamics"],
     link: "https://www.kingstrust.org.uk/",
+  },
+  {
+    id: "3",
+    title: "AlphaGeek Digital",
+    description:
+      "A modern digital agency website with sleek design and interactive elements showcasing services and portfolio.",
+    imageUrl:
+      "https://alphageek.digital/_next/image?url=https%3A%2F%2Fwp.alphageek.digital%2Fwp-content%2Fuploads%2F2024%2F10%2Fcontact-hero-bg.webp&w=3840&q=75",
+    tags: ["Projects", "Process", "People"],
+    link: "https://alphageek.digital/",
   },
   {
     id: "4",

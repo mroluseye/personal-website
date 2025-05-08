@@ -81,7 +81,7 @@ const ProjectCard = ({
             asChild
           >
             <a href={link} target="_blank" rel="noopener noreferrer">
-              View Project
+              Check Them Out
               <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </a>
           </Button>
