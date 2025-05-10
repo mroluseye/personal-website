@@ -131,12 +131,12 @@ const HeroSection = ({
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
-                  "https://adplist.org/mentors/oluseye-cole?session=31631-mentorship-session",
+                  "https://roluseye.gumroad.com/l/thepmhandbook",
                   "_blank",
                 );
               }}
             >
-              Book A Session
+              Get My Book
             </Button>
           </motion.div>
 
