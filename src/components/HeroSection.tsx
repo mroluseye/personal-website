@@ -225,7 +225,7 @@ const HeroSection = ({
             className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg"
           >
             <img
-              src="https://scontent-lhr6-1.xx.fbcdn.net/v/t51.75761-15/497281826_18507622468037482_554299333579073425_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vIos_gD9R6sQ7kNvwEFgYqp&_nc_oc=AdkFC90-ueGuYEmn_fPBEJwHIbG39VJ3aHiTexLV-0kSiR3A6T25_tQeOlPhdV6K4uQ&_nc_zt=23&se=-1&_nc_ht=scontent-lhr6-1.xx&_nc_gid=eE5tkDkf-gDa53d-4b2LNQ&oh=00_AfIhofFt829EyyljrLr7SLWy2_Jw0GUFrD1yRy6ZU3xodw&oe=68257B8E"
+              src="https://scontent-lhr8-1.xx.fbcdn.net/v/t51.75761-15/496710656_18507622450037482_8223471827882490967_n.jpg?stp=dst-jpegr_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LJhC8RGpxOIQ7kNvwHyvaDv&_nc_oc=AdlauJjN6CvxOQ_pQrozMMqIjvYeKLzaLk8eh0DV1-4QXUg-Sd7TRLM0E11gtsEjzN4&_nc_zt=23&se=-1&_nc_ht=scontent-lhr8-1.xx&_nc_gid=75c7BKoam1BYOBc5781GlQ&oh=00_AfKk1WWcWFD0wxzdOm0ROjE5J4_ngluVGRFa9Fv_lFynuQ&oe=682589D5"
               alt="Profile"
               className="w-full h-full object-cover"
             />
