@@ -14,7 +14,7 @@ interface HeroSectionProps {
 const HeroSection = ({
   name = "Olu Cole",
   title = "Unconventional Agilist & AI Junkie",
-  tagline = "I Enable Humans To Deliver Value Fast - In and Out of Work",
+  tagline = "Helping Humans Do Their Best Work, Faster. Amplifying Outcomes!",
 }: HeroSectionProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
