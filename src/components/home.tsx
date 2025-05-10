@@ -34,13 +34,16 @@ const HomePage = () => {
           <div>
             <p className="text-lg mb-6 leading-relaxed">Hey There 🙌🏼 </p>
             <p className="text-lg mb-6 leading-relaxed">
-              Let’s start with a confession: I’m a bit of a PUBG enthusiast. If you're ever up for a proper team game, you’ll find me as MrPeterCole.
-
-But beyond the battlefield, I’m a genuinely fun-loving person. Some may occasionally misread that energy, but I’ll take that over being forgettable.
-
-Now, on to the serious stuff. I’m a certified Delivery Management professional at the UK’s Ministry of Justice, with over a decade of experience guiding teams in FinTech, EdTech, AgriTech, Digital Marketing, and Government. I help keep projects on track, moving iteratively, and usually without unnecessary drama.
-
-Over the years, I’ve worked as a developer, tester, project manager, mentor, and delivery lead—each role sharpening my ability to translate roadmaps into real-world outcomes.
+              Let’s start with a confession: I’m a bit of a PUBG enthusiast. 
+              If you're ever up for a proper team game, you’ll find me as MrPeterCole.
+              But beyond the battlefield, I’m a genuinely fun-loving person. 
+              Some may occasionally misread that energy, but I’ll take that over being forgettable.</p>
+              <p className="text-lg mb-6 leading-relaxed">
+              Now, on to the serious stuff. I’m a certified Delivery Management professional at the UK’s Ministry of Justice, 
+              with over a decade of experience guiding teams in FinTech, EdTech, AgriTech, Digital Marketing, and Government. 
+              I help keep projects on track, moving iteratively, and usually without unnecessary drama.
+              Over the years, I’ve worked as a developer, tester, project manager, mentor, and delivery lead. 
+              Each role sharpening my ability to translate roadmaps into real-world outcomes.
             </p>
             <p className="text-lg leading-relaxed">
               I’m shamelessly obsessed with Artificial Intelligence, so, after
