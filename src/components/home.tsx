@@ -35,7 +35,7 @@ const HomePage = () => {
             <p className="text-lg mb-6 leading-relaxed">Hey There 🙌🏼 </p>
             <p className="text-lg mb-6 leading-relaxed">
               Let’s start with a confession: I’m a bit of a PUBG enthusiast. So, 
-              ff you're ever up for a proper team game, you’ll find me as MrPeterCole.
+              if you're ever up for a proper team game, you’ll find me as MrPeterCole.
               But beyond the battlefield, I’m a genuinely fun-loving person. 
               Some may occasionally misread that energy, but I’ll take that over being forgettable.</p>
               <p className="text-lg mb-6 leading-relaxed">
